@@ -2,15 +2,15 @@ import streamlit as st
 import pandas as pd
 from random import *
 
+# 파일 - 데이터 프레임 
+fooddata = pd.read_csv('FoodData2.csv')
+fooddata = pd.DataFrame(fooddata)
+
 # 페이지 기본 설정
 st.set_page_config(
     page_icon = "🍽️",
     page_title = "오늘 뭐 먹지?",
     layout = 'wide')
-
-# 파일 - 데이터 프레임 
-fooddata = pd.read_csv('FoodData2.csv')
-fooddata = pd.DataFrame(fooddata)
 
 # 이미지 첨부 - 웹 배너
 st.image('picture1.png', use_column_width = True)
