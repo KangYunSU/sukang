@@ -1,4 +1,5 @@
 project 1 : 오늘 뭐 먹지
-→ FoodData 1 / FoodData 2 / app.py / pages /picture1
+→ 음식 종류와 맵기에 따른 음식 추천
 
-project 2 : 오늘 뭐 보지 (중국 드라마)
+project 2 : 오늘 뭐 보지
+→ 장르, 배우, 연도, OOT별 중국 드라마 추천
